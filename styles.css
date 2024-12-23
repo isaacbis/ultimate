@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  color: #ff8c00;
+}
+
+.fields-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.field-box {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.slot {
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.available {
+  background-color: #d4edda;
+  color: #155724;
+  cursor: pointer;
+}
+
+.unavailable {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.my-booking {
+  background-color: #fff3cd;
+  color: #856404;
+}
